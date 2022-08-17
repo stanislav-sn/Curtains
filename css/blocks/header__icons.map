@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "header__icons.css",
+	"sources": [
+		"../../scss/blocks/header__icons.scss"
+	],
+	"sourcesContent": [
+		".header__icons {\r\n\r\n}\r\n\r\n.header-icons-notify {\r\n\r\n}"
+	],
+	"names": [],
+	"mappings": ""
+}

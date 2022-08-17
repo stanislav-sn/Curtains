@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: .2s ease-in-out;
+}
+body {
+    width: 100%;
+    max-width: 1924px;
+    min-width: 1036px;
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border: none;
+  outline: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  outline: none;
+}

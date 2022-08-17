@@ -1,0 +1,49 @@
+.carousel-section {
+    max-width: 1924px;
+}
+
+.owl-theme .owl-nav [class*='owl-'] {
+    color: #FFF;
+    font-size: 14px;
+    margin: 5px;
+    padding: 4px 7px;
+    background: #D6D6D6;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px; 
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+    opacity: 0.7;    
+}
+
+.owl-theme .owl-nav .disabled {
+      opacity: 0.5;
+      cursor: default; 
+}
+  
+.owl-carousel.owl-theme .owl-nav {
+    button.owl-prev, 
+    button.owl-next {
+    display: block;
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    margin-top: -399px;
+    background-repeat: no-repeat;
+    outline: none;
+    }
+
+    button.owl-prev {
+        left: 205px;
+        background-image: url("../img/slider/button_prev.png");
+    }
+
+    button.owl-next {
+        right: 208px;
+        background-image: url("../img/slider/button_next.png");
+    }
+} 
+
+      
+

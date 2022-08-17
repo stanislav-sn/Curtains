@@ -1,0 +1,96 @@
+footer {
+    background-color: #d3d3d3;
+}
+.footer-content {
+    height: 241px;
+    width: 100%;
+}
+
+.footer-content-row {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-top: 35px;
+}
+
+.footer-content-col-1 {
+    width: 251px;
+    height: 100px;
+    text-align: left;
+    font-family: "PT Sans";
+    font-size: 18px;
+    font-weight: 400;
+    
+    h3 {
+        color: #4b4a4a; 
+    }
+}
+
+.footer_work-time-table {
+    color: #6a6969;
+    margin-top: 14px;
+    td {
+        padding-left: 15px;
+    }
+    
+}
+
+.footer-content-col-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+    height: 107px;
+    margin: 0 60px;
+    a {
+        text-decoration: none;
+        font-family: "PT Sans";
+        font-size: 18px;
+        font-weight: 400;
+        color: #4b4a4a;
+    }
+}
+.footer_content-col-2-phone {
+    background: url(../img/footer/phone.png);
+    background-repeat: no-repeat;
+    a {
+        padding-left: 30px;
+    }
+}
+
+.footer_content-col-2-mail {
+    margin-top: 25px;
+}
+.footer_content-col-2-pay {
+    margin-top: 25px;
+}
+.footer_content-col-2-rights {
+    color: #4b4a4a;
+    font-family: "PT Sans";
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.footer-content-col-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    h3 {
+        color: #4b4a4a;
+        font-family: "PT Sans";
+    }
+}
+
+.footer-content-col-3-icons {
+    padding-top: 18px;
+}
+.footer-content-col-3-icons a {
+    width: 38px;
+    height: 38px;
+    
+    &:not(:last-child) {
+        padding-right: 30px;
+    }
+}

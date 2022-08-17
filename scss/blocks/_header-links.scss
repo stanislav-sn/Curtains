@@ -1,0 +1,32 @@
+.header-link-button {
+    display: flex;
+    align-items: center;
+    margin-top: 53px;
+};
+
+.header-link__icon {
+    position: relative;
+    width: 43px;
+    height: 35px;
+    color: #ffffff;
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+.header-link--notify .header-link__icon::after {
+    position: absolute;
+    bottom: -9px;
+    right: -15px;
+    content: "";
+    width: 18px;
+    height: 18px;
+    background-color: #980052;
+    text-align: center;
+};
+
+.sticky-header-link-button {
+    margin: 0 0 0 32px;
+}
+                            
