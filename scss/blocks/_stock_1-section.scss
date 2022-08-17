@@ -44,7 +44,6 @@
 
 .s__1-catalog-inner {
     position: relative;
-    width: 100%;
 }
 
 .s__1-catalog-inner-text {
@@ -58,6 +57,7 @@
 
 .stock__1-section-row-3 {
     display: flex;
+    margin-bottom: 70px;
 }
 
 .stock__1-button__button {
@@ -73,4 +73,16 @@
     justify-content: center;
     align-items: center;
     margin: auto;
+}
+.s__1-catalog-inner-img-1 {
+    background: url(../../img/stock1/Shtory_1.jpg);
+    height: 364px;
+}
+.s__1-catalog-inner-img-2 {
+    background: url(../../img/stock1/Shtory_2.jpg);
+    height: 364px;
+}
+.s__1-catalog-inner-img-3 {
+    background: url(../../img/stock1/Shtory_3.jpg);
+    height: 364px;
 }
