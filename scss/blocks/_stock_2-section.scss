@@ -1,5 +1,6 @@
 .stock_2-section {
-    background-image: url("../img/stock2/background.jpg");
+    background: url("../img/stock2/background.jpg") no-repeat;
+    background-size:cover;
     height: 442px;
     .stock_2-section-row {
         display: flex;

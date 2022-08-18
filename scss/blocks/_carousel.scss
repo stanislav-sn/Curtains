@@ -6,10 +6,8 @@
     height: 800px;
     left: 0;
     right: 0;
-    background-image: url("../img/slider/slider.jpg");
-    background-position: center;
+    background: url("../img/slider/slider.jpg") no-repeat center;
     background-size: cover;
-    background-repeat: no-repeat;
 }
 .carousel__item-title {
     color: #ffffff;
