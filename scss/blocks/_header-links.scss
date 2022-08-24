@@ -15,7 +15,7 @@
 };
 
 
-.shop-cart::after {
+.shop-cart-counter::after {
     position: absolute;
     bottom: -9px;
     left: 42px;
@@ -24,7 +24,7 @@
     height: 18px;
     text-align: center;
 };
-.heart::after {
+.heart-counter::after {
     position: absolute;
     bottom: -9px;
     left: 37px;
@@ -33,7 +33,7 @@
     height: 18px;
     text-align: center;
 };
-.libra::after {
+.libra-counter::after {
     position: absolute;
     bottom: -9px;
     left: 35px;
