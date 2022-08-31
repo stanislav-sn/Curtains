@@ -108,7 +108,7 @@ class CatalogCard {
     }
 }
 new CatalogCard(
-    "../../img/stock1/Shtory_1.jpg",
+    "/../../img/stock1/Shtory_1.jpg",
     'shtory',
     'Glamorous Nits',
     66123,
@@ -119,7 +119,7 @@ new CatalogCard(
 ).render(); 
 
 new CatalogCard(
-    "../../img/stock1/Shtory_2.jpg",
+    "/../../img/stock1/Shtory_2.jpg",
     'shtory',
     'Elegant Provence',
     66123,
@@ -130,7 +130,7 @@ new CatalogCard(
 ).render();
 
 new CatalogCard(
-    "../../img/stock1/Shtory_3.jpg",
+    "/../../img/stock1/Shtory_3.jpg",
     'shtory',
     'Stylish Classic',
     66123,
