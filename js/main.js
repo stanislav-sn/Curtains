@@ -2,7 +2,7 @@
 // ---------------------------header animation-----------------------
 $(window).scroll(function() {
 if ($(this).scrollTop() > 1){
-    $('.header').addClass("sticky-header");
+    $('header').addClass("sticky-header");
     $('.header__container').addClass("sticky-header__container");
     $('.header__logo').addClass("sticky-header__logo");
     $('.header__logo-img').addClass("sticky-header__logo-img");
@@ -11,7 +11,7 @@ if ($(this).scrollTop() > 1){
     $('.header-link-button').addClass("sticky-header-link-button");
   }
   else{
-    $('.header').removeClass("sticky-header");
+    $('header').removeClass("sticky-header");
     $('.header__container').removeClass("sticky-header__container");
     $('.header__logo').removeClass("sticky-header__logo");
     $('.header__logo-img').removeClass("sticky-header__logo-img");
